@@ -1,0 +1,44 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* font-size: 2em; */
+}
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background-color: #3333ce;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.slider img{
+    width: 79vw;
+    height: 290px;
+    margin-left: 128px;
+    overflow: hidden;
+}
+.card{
+    max-width: 90vw;
+    margin: auto;
+    /* display: inline-flex; */
+    /* flex-direction: column; */
+}
+.card h2{
+    font-style: italic;
+    margin: 26px 73px;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    /* justify-content:center; */
+}
+.card-item{
+    width: 13vw;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 34px;
+}
