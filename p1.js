@@ -192,5 +192,5 @@ setTimeout(virat,2000);*/
 obj={name:"hatim",length:1}
 jso=JSON.stringify(obj);
 console.log(jso);
-parsed=JSON.parse('{"name":"Hatim","length":1,"a":{"this":"that"}}')
+parsed=JSON.parse('{"name":"Taher","length":1,"a":{"this":"that"}}')
 console.log(parsed);
